@@ -10,7 +10,7 @@ def index():
 
 @app.route('/unifran')
 def unifran():
-    return render_template('unifran/unifran.html')
+    return render_template('/unifran.html')
 
 
 if __name__ == '__name__':
